@@ -11,5 +11,9 @@
       "src": "/(.*)",
       "dest": "src/app.js"
     }
-  ]
+  ],
+  "env": {
+    "MONGODB_URI": "mongodb+srv://tp_user:TPuser123@depc.pvzlgcc.mongodb.net/tp_modulo4",
+    "JWT_SECRET": "mi_clave_secreta_super_segura_123"
+  }
 }
