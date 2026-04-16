@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "express": "4.18.2",
-    "mongoose": "7.8.0",
+    "mongoose": "6.12.0",
     "dotenv": "16.3.1",
     "bcryptjs": "2.4.3",
     "jsonwebtoken": "9.0.2",
@@ -19,6 +19,6 @@
     "nodemon": "3.0.1"
   },
   "engines": {
-    "node": "24.x"
+    "node": "20.x"
   }
 }
