@@ -66,9 +66,10 @@ router.post('/login', async (req, res) => {
       return res.status(401).json({ error: 'Credenciales inválidas' });
     }
     
+    // JWT_SECRET hardcodeado
     const token = jwt.sign(
       { userId: user._id, email: user.email },
-      process.env.JWT_SECRET,
+      'mi_clave_secreta_super_segura_123',
       { expiresIn: '24h' }
     );
     
